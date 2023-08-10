@@ -8,7 +8,7 @@ function hello () {
 
 <template>
   <form @submit.prevent="hello">
-    <h1>Demo with auto imports</h1>
+    <h1 class="text-red-700">Demo with auto imports</h1>
     <CustomInput v-model="message" />
     <button type="submit">Hello</button>
   </form>
